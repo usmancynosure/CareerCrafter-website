@@ -7,13 +7,13 @@ Jobs=[
   {
     'id':1,
     'title':'Data Analyst',
-    'location':'Bengaluru, India',
+    'location':'Lahore, Pakistan',
     'salary':'Rs. 10,00,000'
   },
   {
     'id':2,
     'title':'Data Scientist',
-    'location':'Delhi, India',
+    'location':'Islamabad, Pakistan',
     'salary':'Rs. 15,00,000'
   },
   {

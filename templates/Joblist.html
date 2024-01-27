@@ -2,13 +2,14 @@
   <div class="col-6 ">
     <h4 style="color:rgb(120,120,110)">{{job['title']}}</h4>
     <div><b>Location:</b>{{job['location']}}</div>
-    {% if 'salary' in job%}
+    {% if 'salary' in job %}
     <div><b>Salary:</b>{{job['salary']}}</div>
     {% endif %}
   </div>
 
   <div class="col-6">
-    <button type="button" class="btn btn-success">Apply Now</button>
+    <a href=" mailto:usmanwaris0987@gmail.com?subject=Application%20for%20job['title']&body=Name%3A%20%3Cyour%20name%3E%0D%0AResume%20%3Cattach%3E%0D%0Alinkdin%20id%20%3Cmentioned%20here%3E " 
+       type="button" class="btn btn-outline-primary float-right align-middle">Apply
+    </a>
   </div>
-
 </div>
